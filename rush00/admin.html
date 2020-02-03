@@ -1,0 +1,43 @@
+<html>
+	<div class="ajout">AJOUT : <br/>
+		<form method="GET" name="produits">
+			fruits<input type="checkbox" name="categorie[]" value="fruits">
+			legumes<input type="checkbox" name="categorie[]" value="legumes">
+			soda<input type="checkbox" name="categorie[]"  value="soda">
+			alcool<input type="checkbox" name="categorie[]" value="alcool">
+			viandes<input type="checkbox" name="categorie[]" value="viandes">
+			frais<input type="checkbox" name="categorie[]" value="frais">
+			surgele<input type="checkbox" name="categorie[]" value="surgele">
+			autre<input type="checkbox" name="categorie[]" value="autre">
+			nom<input type="text" name="nom">
+			description<input type="text" name="description">
+			image<input type="text" name="image">
+			quantite<input type="number" name="quantite">
+			prix<input type="number" name="prix">
+			<input type="submit" value="ajout" name="action">
+		</form>
+	</div>
+	<br/>
+	<div class="sup">SUPPRESSION :<br/>
+		<form methode="GET" name="SUPPRESSION" action="">
+			nom<input type="text" name="nom">
+			<input type="submit" value="suppression" name="action">
+		</form>
+	</div>
+	<br/>
+	<div class="modif">MODIF : <br/>
+		<form methode="GET" action="">
+			nom<input type="text" name="nom">
+			champs a modifier<input type="text" name="champs">
+			nouvelle valeur<input name="new_val">
+			<input type="submit" value="modif" name="action">
+		</form>
+	<div class="modif">ADD : <br/>
+		<form methode="GET" action="">
+			nom<input type="text" name="nom">
+			champs a modifier<input type="text" name="champs">
+			valeur a ajouter<input type="number" name="new_val">
+			<input type="submit" value="increment" name="action">
+		</form>
+	</div>
+</html>

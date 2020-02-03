@@ -1,0 +1,145 @@
+.img_cadi{
+    height: 62px;
+    width: auto;
+    position: absolute;
+    top : 9px;
+    right: 100px;
+    background-image: none;
+    border-radius: 10px;
+}
+
+.fa{
+font-size: 100px;
+}
+
+.img_home{
+    height: 62px;
+    width: 100px;
+    position: absolute;
+    top : 0px;
+    right: 150px;
+    background-image: none;
+    border-radius: 10px;
+}
+
+.conexion{
+    height: 62px;
+    width: auto;
+    position: absolute;
+    top : 9px;
+    right: 10px;
+}
+
+.adm{
+    height: 62px;
+    width: auto;
+    position: absolute;
+    top : 9px;
+    left:  10px;
+}
+
+.deconexion{
+    height: 62px;
+    width: auto;
+    position: absolute;
+    top : 9px;
+    right: 10px;
+}
+
+.login{
+    position: absolute;
+}
+
+#menu, #menu ul{
+    padding: 0;
+    list-style: none;
+    margin:auto;
+    width:100%;
+}
+
+nav{
+    width: 100%;
+    Border:0;
+}
+
+#menu li{
+    display: inline-block;
+    position:relative;
+    width: 100%;
+    height: 64px;
+    
+    
+}
+
+#menu ul li{
+    display: inherit;
+}
+
+#menu ul{
+    max-height: 0;
+    margin-top: 30px;
+    overflow: hidden;
+    transition: .6s all .4s;
+}
+
+#menu li:hover ul{
+    max-height: 35em;
+}
+
+#menu li{
+    background-color: #42B0A2;
+}
+#menu li:first-child li{
+    background: #55c9b5;;
+}
+
+#menu li:first-child:hover, #menu li:first-child li:hover{
+    background:#42B0A2;
+}
+
+#menu a{
+    font-family: 'Courier New', Courier, monospace;
+    display:block;
+    text-align: center;
+    font-size: 30px;
+    color:black;
+    text-decoration: none;
+    display:block;
+}
+#menu ul a{
+    text-align: center;
+    padding:0px;
+}
+
+button{
+    border: none;
+    background-color: #42B0A2;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+#type{
+    font-weight: bold;
+}
+
+.affichage{
+	margin: 2px 2px 2px;;
+	width: 24%;
+    height: 250px;
+    text-align: center;
+    display:inline-block;
+    border-width:2px;
+    border-style: double;
+    border-color: teal;   
+    border-radius: 10px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+img{
+	width: auto;
+    height: 50%;
+}
+

@@ -1,0 +1,23 @@
+
+<- Vector ----------------------------------------------------------------------
+The Vector class handles vectors defined from two Vertices.
+
+An instance can be constructed from array containing between on and two vertices:
+    *   ‘dest’ => Vertex()
+    [ * ‘orig’ => Vertex() ]
+
+The class provides the following methods :
+    public function getX()
+    public function getY()
+    public function getZ()
+    public function getW()
+    public function magnitude()
+    public function normalize() 
+    public function add($vect)
+    public function sub($vect)
+    public function scalarProduct($scal)
+    public function opposite()
+    public function dotProduct($vec)
+    public function crossProduct ($vec)
+    public function cos($vec)
+---------------------------------------------------------------------- Vector ->

@@ -1,0 +1,47 @@
+<html>
+<header>
+    <style>
+        div{width: 200px;height: 200px; background-color: red; border-radius: 50%;};
+    
+    </style>
+    <script>
+        var tab = new Array('#ff0000','#00ff00','#0000ff' );
+        var i =0;
+        var taill=200;
+        function ft_clic(){i++;
+            if(i == 3)
+                i=0;
+            document.getElementById("rond").style.backgroundColor=tab[i];
+            if(taill==420)
+            {
+                taill=200;
+                document.getElementById("rond").style.width=200;
+                document.getElementById("rond").style.height=200;
+            }
+            else
+            {
+                taill += 10;
+                document.getElementById("rond").style.width=document.getElementById("rond").offsetWidth + 10;
+                document.getElementById("rond").style.height=document.getElementById("rond").offsetHeight + 10;
+            }
+            
+        }
+        function ft_mouv(){i--;
+            if(i == -1)
+                i= 2;
+            if(taill>200)
+            {
+                taill -= 5;
+                document.getElementById("rond").style.width=document.getElementById("rond").offsetWidth - 5;
+                document.getElementById("rond").style.height=document.getElementById("rond").offsetHeight - 5;
+            }document.getElementById("rond").style.backgroundColor=tab[i];
+            
+        }
+    
+    </script>
+
+</header>
+<body>
+    <div id="rond" onmouseout='ft_mouv()' onclick="ft_clic()" ></div>
+</body>    
+</html>

@@ -1,0 +1,20 @@
+
+<- Vertex ----------------------------------------------------------------------
+The Vertex class represents a point in space
+
+An instance must be built from a value x y and z and can have the value w and color:
+new Vertex(array('x' => 0, 'y' => 0, 'z' =>0, 'w'=>0,$Class Color);
+
+The class provides the following methods :
+    public function getX()
+    public function getY()
+    public function getZ()
+    public function getW()
+    public function getColor()
+
+    public function setX($v)
+    public function setY($v)
+    public function setZ($v)
+    public function setW($v)
+    public function setColor($v)
+---------------------------------------------------------------------- Vertex ->

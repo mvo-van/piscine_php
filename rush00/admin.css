@@ -1,0 +1,36 @@
+.bloc{
+    width: 49%;
+    height: 400px;
+    text-align: center;
+    display:inline-block;
+    border-width:2px;
+    border-style: double;
+    border-color: teal;   
+    border-radius: 10px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+.trois_bloc{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.erreur{
+    color: tomato;
+}
+
+.valide{
+    color: green;
+}
+
+html{
+    background-color:whitesmoke ;
+}

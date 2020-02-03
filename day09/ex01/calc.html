@@ -1,0 +1,50 @@
+<html ft_use()>
+<header>
+
+    <script>
+        setInterval(ft_use,30000);
+        function ft_use(){
+            alert("Please, use me...")
+            
+        }
+        function ft_cal(){
+            var print;
+            var gauche=document.getElementById("membre_1").value;
+            var op=document.getElementById("operateur").value;
+            var droite=document.getElementById("membre_2").value;
+            if(!droite || !gauche || isNaN(droite) || isNaN(gauche))
+                print="Error :(";
+            else if (droite < 0 || gauche<0)
+                print="Error :(";
+            else if (op == "+")
+                print= parseFloat(droite) + parseFloat(gauche);
+            else if (op == "-")
+                print=  gauche-droite;
+            else if (op == "*")
+                print=droite * gauche;
+            else if (droite == 0)
+                print="It’s over 9000!";
+            else if (op == "/")
+                print=gauche /droite ;
+            else
+                print = gauche%droite ;
+            if(print != "Error :(")
+                console.log(print);
+            alert(print);
+        }
+    </script>
+
+</header >
+<body>
+    <input type="text" id="membre_1"/>
+    <select name="op" id="operateur">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+    </select>
+    <input type="text" id="membre_2"/>
+    <input onclick="ft_cal()" type="submit" value="Try me"/>
+</body>    
+</html>

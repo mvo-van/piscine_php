@@ -1,0 +1,294 @@
+.site{
+    position: relative;
+}
+.header.style-18 {
+    background-color: #fff;
+    box-shadow: 0 1px #eee;
+}
+.element-flexible{
+    flex-basis: 20%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 10px 0px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 5px;
+}
+.header {
+    position: relative;
+    width: 100%;
+    display: block;
+    background-color: #fff;
+}
+#mid{
+    width:  100%;
+    position: relative;
+    top: -20px;
+}
+#menu li{
+    display:none;
+}
+
+#menu:hover li{
+    position: relative;
+    padding:5px;
+    left: -10px;
+    width: 20%;
+}
+#tm{
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+#tc{
+    position: absolute;
+    right: 120px;
+    top: 34px;
+}
+/* bouton de recherche*/
+/* Fond du gadget de la barre de recherche */
+.recherche_p {
+    position: absolute;
+    top: 80px;
+    right: 8px;
+  background-color: #eeeeee;   /* Couleur de fond */
+  border-style: solid;   /* Style de la bordure  */
+  border-width: 1px;   /* Epaisseur de la bordure  */
+  border-color: #dddddd;   /* Couleur de la bordure  */
+  padding: 10px 10px 10px 10px;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
+}
+
+/* Champ de saisie */
+#searchthis #search {
+  background-color: #ffffff;   /* Couleur de fond */
+  border-style: solid;   /* Style de la bordure  */
+  border-width: 1px;   /* Epaisseur de la bordure  */
+  border-color: #dddddd;   /* Couleur de la bordure  */
+  padding: 5px 10px 5px 10px;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
+  width: 80%;   /* Permet d'ajuster la largeur du champ de saisie à 100% */
+  box-sizing: border-box;   /* Important */
+  font-family: Lato;   /* Police du texte */
+  font-size: 12px;   /* Taille de la police du texte */
+  font-weight: normal;   /* Graisse du texte : normal = normal ; bold = gras */
+  letter-spacing: 1px;   /* Espacement des caractères */
+}
+
+/* Bouton valider */
+#searchthis #search-btn {
+  background-color: #E8B960;   /* Couleur de fond */
+  border-style: solid;   /* Style de la bordure  */
+  border-width: 1px;   /* Epaisseur de la bordure  */
+  border-color: #E8B960;   /* Couleur de la bordure  */
+  padding: 5px 10px 5px 10px;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
+  width: 80%;   /* Permet d'ajuster la largeur du champ de saisie à 100% */
+  box-sizing: border-box;   /* Important */
+  font-family: PT sans;   /* Police du texte */
+  font-size: 13px;   /* Taille de la police du texte */
+  font-weight: normal;   /* Graisse du texte : normal = normal ; bold = gras */
+  letter-spacing: 2px;   /* Espacement des caractères */
+  margin: 10px 0 0 0;   /* Espace autour du bouton : haut droite bas gauche  */
+  text-transform: uppercase;   /* Transforme le texte en majuscules */
+  color: #ffffff;   /* Couleur du texte */
+}
+
+/* Bouton valider quand survolé par la souris */
+#searchthis #search-btn:hover {
+  background-color: #ffffff;   /* Couleur de fond */
+  color: #E8B960;   /* Couleur du texte */
+  cursor: pointer;   /* Apparence du curseur comme pour un lien */
+}
+/* barres des menus */
+
+nav {
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    background: #3a3a3a;
+    font-size: 16px;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+   
+  nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  nav ul li {
+    position: relative;
+    float: left;
+    list-style: none;
+  }
+   
+  nav ul li:hover {
+    background: #4096ee;
+  }
+   
+  nav ul li a {
+      padding: 20px;
+  }
+  nav ul ul {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    background: #333;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+  }
+   
+  nav ul ul li {
+    float: none;
+    width: 200px;
+    border-bottom: 1px solid #555;
+  }
+   
+  nav ul ul li a {
+    padding: 10px 20px;
+  }
+  nav ul li:hover > ul {
+    top: 100%;
+    left: 0;
+  }
+  nav ul ul li:hover > ul {
+    top: 0;
+    left: 200px;
+  }
+
+  nav ul li.submenu > a:after {
+    position: relative;
+    float: right;
+    content: '';
+    margin-left: 10px;
+    margin-top: 5px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid transparent;
+  }
+  nav ul ul li.submenu a:after {
+    margin-left: auto;
+    margin-right: -10px;
+    border-left: 5px solid #fff;
+    border-right: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+  }
+  nav ul ul li:last-child {
+    border-bottom: none;
+  }
+/* fin barre des menus */
+
+/*typage de photos */
+.roundedImage, .roundedImageShadow, .roundedImageBorder{
+	overflow:hidden;
+	-webkit-border-radius:50px;
+	-moz-border-radius: 50%;
+	border-radius:50px;
+	width:90px;
+	height:90px;
+}
+.roundedImageShadow{
+	-moz-box-shadow: 0px 0px 10px #343434;
+	-webkit-box-shadow: 0px 0px 10px #343434;
+	-o-box-shadow: 0px 0px 10px #343434;
+	box-shadow: 0px 0px 10px #343434;
+}
+.roundedImageBorder{
+	border: 1px solid #006699;
+}
+/*typage des photos*/
+
+ /*test diap*/
+.conteneur1{
+    overflow: hidden;
+    max-width: 160px;
+    margin-top : 120em;
+    margin: 100px auto;
+    box-shadow: 0px 15px 10px -5px #777;
+}
+.conteneur2{
+    margin-top : 120em;
+    max-width: 2706px;
+    overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px #777;
+}
+.d2{
+    width: 200%;
+    padding-top: 15%;
+    background-color: #EDEDED;
+    background-image: url("https://zupimages.net/up/20/04/2qdz.jpg");
+    background-size: contain;
+    animation: defilement2 50s linear infinite;
+}
+@keyframes defilement2{
+    0%{transform: translate(0,0);}
+    100%{transform: translate(-75%,0);}
+}
+.d1:hover, .d2:hover{
+    animation-play-state: paused;
+}
+/* test diapo*/
+#page {
+
+    height: 2706px;
+}
+@media screen and (max-width: 120em) {
+    *{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 100em) {
+    *{
+        font-size: 0.99em;
+    }
+    td{
+        width: 3%;
+
+    }
+    p:nth-child(0n+4){
+        position: absolute;
+         font-size: 0.07em!important;
+        top: 0;
+        right: 0;
+    }
+    table{
+        width: 3%!important;
+    }
+}
+@media screen and (max-width: 90em) {
+    *{
+        font-size: 0.93em;
+    }
+    td{
+        width: 3%;
+
+    }
+    p:nth-child(0n+4){
+        position: absolute;
+         font-size: 0.07em!important;
+        top: 0;
+        right: 0;
+    }
+    table{
+        width: 3%!important;
+    }
+}
+
+@media screen and (max-width: 60em) {
+    *{
+        font-size: 0.2em;
+    }
+    td{
+        width: 1%;
+    }
+    table{
+        width: 1%!important;
+    }
+    p{
+        font-size: 5px;
+    }
+}

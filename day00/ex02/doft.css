@@ -1,0 +1,258 @@
+h1 
+{
+    color:brown;
+}
+
+.maclasse
+{
+    color:white; 
+    text-align: center;
+}
+
+.figure 
+{
+    display:inline-block;
+}
+
+div 
+{
+    text-align:left;
+}
+
+body 
+{
+    position:relative;
+}
+
+.top 
+{
+    position:relative; 
+    margin: auto; width:74%; 
+    height: 12.6%; margin-top:16px; 
+    margin-bottom: 16px;
+}
+
+.centre 
+{
+    margin:auto; width:70%; 
+    height: 53%;
+}
+
+.gauche 
+{
+    vertical-align:top; 
+    display:inline-block;width:10%; 
+    height:70%; 
+    float:left;
+    margin-right:1%;
+}
+
+.milieu 
+{
+     vertical-align:top; 
+     display:inline-block; 
+     margin: auto; width:75%; 
+     margin-left:1%; 
+     margin-right: 1%; 
+}
+
+.droit 
+{
+    vertical-align:top; 
+    display:inline-block; 
+    width:10%; height:70%; 
+    margin:initial; 
+    float: right; 
+    margin-left:1%;
+}
+
+.vert {
+    position:absolute; 
+    width:27%; height: 
+    16%;margin-left:10.5%; 
+    top:63%
+}
+
+.blanc {
+    position:absolute;
+    width:70%;height: 11%; 
+    display:inline-block; 
+    border-style:inset; 
+    margin-left: 3%; 
+    bottom: 37%; 
+}
+
+.ombre 
+{
+    border-radius: 10px; 
+    box-shadow: 10px 5px 5px black;
+}
+
+.gris 
+{
+    position:absolute;width:15.3%; 
+    height: 11%; 
+    display:inline-block;
+    border-radius: 2px; 
+    border:solid 1px #C0C0C0; 
+    bottom: 38%; 
+    left: 77%;
+}
+
+.rouge 
+{
+    text-shadow: 0.2em 0.2em 0.4em red
+}
+
+.img_g1 
+{
+    width: 48%; height: 14.7%; 
+    margin-left:23%; 
+    margin-top: 7%;
+}
+
+.img_g2 
+{
+    width: 43%; height: 16.4%; 
+    margin-left:23%; 
+    margin-top: 3%;
+}
+
+.img_g3 
+{
+    width: 46%; 
+    height: 17.6%; 
+    margin-left:23%; 
+    border-width:9%; 
+    border-style:solid;
+    border-color:red; 
+    border-radius: 5px;
+    margin-top: 6.5%;
+}
+
+.img_g4 
+{
+    width: 43%; 
+    height: 14.5%; 
+    margin-left:23%;
+    margin-top: 12.7%;
+}
+
+.img_g5 
+{
+    width: 49%; 
+    height: 16%; 
+    margin-left:23%;
+    margin-top: 10%;
+}
+
+.img_milieu 
+{
+    width: 98%; 
+    height: 100%; 
+    margin:1%;
+}
+
+.img_day 
+{
+     width: 28%; 
+     height: 81.7%;  
+     margin-top:0.7%
+}
+
+.img_close
+{
+    position:absolute;
+    width: 1.4%;height: 14.6%; 
+    right:0px; bottom:0px; 
+    margin:0.6%
+}
+
+.img_reload
+{
+     width: 1.4%; 
+     height: 14.6%; 
+     float:right; 
+     margin:0.6%
+}
+
+.img_loupe
+{
+     position:absolute; 
+     width: 17%; 
+     height: 100%; 
+     right:2%; 
+     top:14.6%;
+}
+
+.img_d1 
+{
+    width: 45%; 
+    height: 20.6%; 
+    margin-left:27.5%; 
+    margin-top: 15%;
+}
+
+.img_d2 
+{
+    width: 40%; 
+    height: 8%; 
+    margin-left:30%;
+    margin-top: 10%; 
+}
+
+.img_d3 
+{
+    width: 24.3%; 
+    height:5,8%; 
+    margin:0px;
+}
+
+.bloc 
+{
+    width: 85%; 
+    height:16.4%; 
+    margin-left:7.5%;
+    padding:0; 
+    background:URL("resources/brick.jpg"); 
+    background-size:26% 37%; 
+    margin-top: 7%;
+}
+
+p 
+{
+    font-size:1em; 
+    font-family: normal, sans-serif;
+    margin-left: 2%;
+}
+
+.entrez 
+{
+    font-size:2em; 
+    font-family: 'Times New Roman', Times, sans-serif
+}
+
+#repondre 
+{
+    font-size:1em; 
+    font-family: normal, sans-serif; 
+    margin:10%
+}
+
+.chaise 
+{
+    position:absolute; 
+    width: 7%; 
+    height:20%; 
+    top:46%; 
+    left: 40.5%;
+}
+
+.ordi 
+{
+    position:absolute; 
+    width: 10%; 
+    height:13%; 
+    top:45%; 
+    left: 64.5%;
+}

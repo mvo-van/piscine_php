@@ -1,0 +1,51 @@
+<html>
+<header>
+    <style>
+        div{width: 200px;height: 200px; background-color: red; border-radius: 50%;};
+    
+    </style>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script>
+        var tab = new Array('#ff0000','#00ff00','#0000ff' );
+        var i =0;
+        var taill=200;
+        function ft_clic(){i++;
+            if(i == 3)
+                i=0;
+            $("#rond").css("background-color", tab[i]);
+            if(taill==420)
+            {
+                taill=200;
+                $("#rond").width(200);
+                $("#rond").height(200);
+            }
+            else
+            {
+                taill += 10;
+                $("#rond").width($("#rond").width() + 10);
+                $("#rond").height($("#rond").height() + 10);
+            }
+            
+        }
+        function ft_mouv(){i--;
+            if(i == -1)
+                i= 2;
+            if(taill>200)
+            {
+                taill -= 5;
+                $("#rond").width($("#rond").width() -5);
+                $("#rond").height($("#rond").height() -5);
+            }$("#rond").css("background-color", tab[i]);
+            
+        }
+    
+    </script>
+
+</header>
+<body>
+    <div id="rond" onmouseout='ft_mouv()' onclick="ft_clic()" ></div>
+</body>    
+</html>
